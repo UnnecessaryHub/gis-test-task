@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import App from './App.tsx'
+import { Root } from './entrypoint'
 
-import './index.css'
+import 'normalize.css'
 
 ReactDOM.createRoot(document.querySelector('#root')!).render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>
 )
