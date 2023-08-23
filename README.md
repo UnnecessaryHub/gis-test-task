@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+## Тестовое задание компании Городские информационные системы
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [👋 Демо](https://unnecessaryhub.github.io/gis-test-task/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Запуск проекта
 ```
+pnpm install 
+pnpm run dev
+```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Стек тестового задания
+- Canvas
+- Vite
+- React
+
+---
+[💻 Мое портфолио](https://gearonixx.com) <br/>
+[💻 Мой Github](https://github.com/Gearonix) <br/>
+[💻 Мое резюме](https://hh.ru/resume/9b4e2f56ff0c36d3670039ed1f524274516e56) <br/>
+Почта - `egor.uzhanin@gmail.com`
+
+### Проекты с похожим функционалом
+1. [CodeGear - Онлайн редактор кода, написанный на React, Nest.js](https://github.com/Gearonix/CodeGear)
+2. [Проект с крутым webpack конфигом и кастомными плагинами](https://github.com/Gearonix/Ulbi-Production)
+4. [Проект на Next.js, Redux, Redux saga и Scss Modules](https://github.com/Gearonix/Adonis-Ecommerce/tree/master/packages/client)
+5. [Pixel playground - приложение для продажи игровых дисков](https://github.com/Gearonix/vuejs-pixel-playground/tree/master/apps/client/src)
+---
