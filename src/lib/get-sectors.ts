@@ -23,20 +23,19 @@ export const getSectors = (): GetSectorsPayload[] => {
   const numSectors = randomNumber(1, 8)
   let t = 0
 
-  const sectors = []
+  const sect = []
   const res = []
 
   for (let i = 0; i < numSectors; i++) {
     const percentage = Math.random() * 100
-    sectors.push(percentage)
+    sect.push(percentage)
     t += percentage
   }
-
   for (let i = 0; i < numSectors; i++) {
-    sectors[i] /= t
-    sectors[i] *= 100
+    sect[i] /= t
+    sect[i] *= 100
     res.push({
-      ratio: sectors[i],
+      ratio: sect[i],
       radius: randomNumber(40, 200),
       color: possibleColors[i]
     })
